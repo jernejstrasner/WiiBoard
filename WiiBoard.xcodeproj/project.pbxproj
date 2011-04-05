@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		194855FE134B18D200B5557C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194855FD134B18D200B5557C /* Cocoa.framework */; };
+		19485608134B18D200B5557C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19485606134B18D200B5557C /* InfoPlist.strings */; };
+		1948560B134B18D200B5557C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1948560A134B18D200B5557C /* main.m */; };
+		1948560E134B18D200B5557C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1948560C134B18D200B5557C /* Credits.rtf */; };
+		19485611134B18D200B5557C /* WiiBoardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19485610134B18D200B5557C /* WiiBoardAppDelegate.m */; };
+		19485614134B18D200B5557C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19485612134B18D200B5557C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		194855F9134B18D200B5557C /* WiiBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiiBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		194855FD134B18D200B5557C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		19485600134B18D200B5557C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		19485601134B18D200B5557C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		19485602134B18D200B5557C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19485605134B18D200B5557C /* WiiBoard-Info.plist */ = {isa = PBXFileReference; path = "WiiBoard-Info.plist"; sourceTree = "<group>"; };
+		19485607134B18D200B5557C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19485609134B18D200B5557C /* WiiBoard-Prefix.pch */ = {isa = PBXFileReference; path = "WiiBoard-Prefix.pch"; sourceTree = "<group>"; };
+		1948560A134B18D200B5557C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1948560D134B18D200B5557C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1948560F134B18D200B5557C /* WiiBoardAppDelegate.h */ = {isa = PBXFileReference; path = WiiBoardAppDelegate.h; sourceTree = "<group>"; };
+		19485610134B18D200B5557C /* WiiBoardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiiBoardAppDelegate.m; sourceTree = "<group>"; };
+		19485613134B18D200B5557C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		194855F6134B18D200B5557C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194855FE134B18D200B5557C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194855EE134B18D200B5557C = {
+			isa = PBXGroup;
+			children = (
+				19485603134B18D200B5557C /* WiiBoard */,
+				194855FC134B18D200B5557C /* Frameworks */,
+				194855FA134B18D200B5557C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		194855FA134B18D200B5557C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				194855F9134B18D200B5557C /* WiiBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		194855FC134B18D200B5557C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				194855FD134B18D200B5557C /* Cocoa.framework */,
+				194855FF134B18D200B5557C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		194855FF134B18D200B5557C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19485600134B18D200B5557C /* AppKit.framework */,
+				19485601134B18D200B5557C /* CoreData.framework */,
+				19485602134B18D200B5557C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19485603134B18D200B5557C /* WiiBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1948560F134B18D200B5557C /* WiiBoardAppDelegate.h */,
+				19485610134B18D200B5557C /* WiiBoardAppDelegate.m */,
+				19485612134B18D200B5557C /* MainMenu.xib */,
+				19485604134B18D200B5557C /* Supporting Files */,
+			);
+			path = WiiBoard;
+			sourceTree = "<group>";
+		};
+		19485604134B18D200B5557C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19485605134B18D200B5557C /* WiiBoard-Info.plist */,
+				19485606134B18D200B5557C /* InfoPlist.strings */,
+				19485609134B18D200B5557C /* WiiBoard-Prefix.pch */,
+				1948560A134B18D200B5557C /* main.m */,
+				1948560C134B18D200B5557C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		194855F8134B18D200B5557C /* WiiBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19485617134B18D200B5557C /* Build configuration list for PBXNativeTarget "WiiBoard" */;
+			buildPhases = (
+				194855F5134B18D200B5557C /* Sources */,
+				194855F6134B18D200B5557C /* Frameworks */,
+				194855F7134B18D200B5557C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiiBoard;
+			productName = WiiBoard;
+			productReference = 194855F9134B18D200B5557C /* WiiBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		194855F0134B18D200B5557C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 194855F3134B18D200B5557C /* Build configuration list for PBXProject "WiiBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 194855EE134B18D200B5557C;
+			productRefGroup = 194855FA134B18D200B5557C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				194855F8134B18D200B5557C /* WiiBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194855F7134B18D200B5557C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19485608134B18D200B5557C /* InfoPlist.strings in Resources */,
+				1948560E134B18D200B5557C /* Credits.rtf in Resources */,
+				19485614134B18D200B5557C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		194855F5134B18D200B5557C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1948560B134B18D200B5557C /* main.m in Sources */,
+				19485611134B18D200B5557C /* WiiBoardAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19485606134B18D200B5557C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19485607134B18D200B5557C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1948560C134B18D200B5557C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1948560D134B18D200B5557C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		19485612134B18D200B5557C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19485613134B18D200B5557C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19485615134B18D200B5557C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		19485616134B18D200B5557C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		19485618134B18D200B5557C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiiBoard/WiiBoard-Prefix.pch";
+				INFOPLIST_FILE = "WiiBoard/WiiBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19485619134B18D200B5557C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiiBoard/WiiBoard-Prefix.pch";
+				INFOPLIST_FILE = "WiiBoard/WiiBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		194855F3134B18D200B5557C /* Build configuration list for PBXProject "WiiBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19485615134B18D200B5557C /* Debug */,
+				19485616134B18D200B5557C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19485617134B18D200B5557C /* Build configuration list for PBXNativeTarget "WiiBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19485618134B18D200B5557C /* Debug */,
+				19485619134B18D200B5557C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 194855F0134B18D200B5557C /* Project object */;
+}
