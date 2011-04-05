@@ -11,9 +11,41 @@
 		19485608134B18D200B5557C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19485606134B18D200B5557C /* InfoPlist.strings */; };
 		1948560B134B18D200B5557C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1948560A134B18D200B5557C /* main.m */; };
 		1948560E134B18D200B5557C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1948560C134B18D200B5557C /* Credits.rtf */; };
-		19485611134B18D200B5557C /* WiiBoardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19485610134B18D200B5557C /* WiiBoardAppDelegate.m */; };
-		19485614134B18D200B5557C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19485612134B18D200B5557C /* MainMenu.xib */; };
+		1948561B134B18FF00B5557C /* WiiRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1948561A134B18FF00B5557C /* WiiRemote.framework */; };
+		19485632134B194D00B5557C /* WiiBoardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1948561D134B194D00B5557C /* WiiBoardAppDelegate.m */; };
+		19485633134B194D00B5557C /* irTocke.m in Sources */ = {isa = PBXBuildFile; fileRef = 1948561F134B194D00B5557C /* irTocke.m */; };
+		19485634134B194D00B5557C /* irTockeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19485621134B194D00B5557C /* irTockeView.m */; };
+		19485635134B194D00B5557C /* CalibrateWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 19485623134B194D00B5557C /* CalibrateWindow.m */; };
+		19485636134B194D00B5557C /* CalibrateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19485625134B194D00B5557C /* CalibrateView.m */; };
+		19485637134B194D00B5557C /* CalibrationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19485627134B194D00B5557C /* CalibrationView.m */; };
+		19485638134B194D00B5557C /* Warper.m in Sources */ = {isa = PBXBuildFile; fileRef = 19485629134B194D00B5557C /* Warper.m */; };
+		19485639134B194D00B5557C /* SmoothingAverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1948562B134B194D00B5557C /* SmoothingAverage.m */; };
+		1948563A134B194D00B5557C /* SmoothingAdaptive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1948562D134B194D00B5557C /* SmoothingAdaptive.m */; };
+		1948563B134B194D00B5557C /* JSPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1948562F134B194D00B5557C /* JSPoint.m */; };
+		1948563C134B194D00B5557C /* MultitouchSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 19485631134B194D00B5557C /* MultitouchSupport.m */; };
+		19485643134B198A00B5557C /* ledred.png in Resources */ = {isa = PBXBuildFile; fileRef = 1948563D134B198A00B5557C /* ledred.png */; };
+		19485644134B198A00B5557C /* ledorange.png in Resources */ = {isa = PBXBuildFile; fileRef = 1948563E134B198A00B5557C /* ledorange.png */; };
+		19485645134B198A00B5557C /* ledgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1948563F134B198A00B5557C /* ledgreen.png */; };
+		19485646134B198A00B5557C /* ledlightblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 19485640134B198A00B5557C /* ledlightblue.png */; };
+		19485647134B198A00B5557C /* green.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 19485641134B198A00B5557C /* green.tiff */; };
+		19485648134B198A00B5557C /* red.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 19485642134B198A00B5557C /* red.tiff */; };
+		1948564C134B19A500B5557C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1948564A134B19A500B5557C /* MainMenu.xib */; };
+		1948564D134B19A500B5557C /* irTocke.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1948564B134B19A500B5557C /* irTocke.xib */; };
+		19485650134B1B0400B5557C /* WiiRemote.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1948561A134B18FF00B5557C /* WiiRemote.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1948564F134B1ACE00B5557C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				19485650134B1B0400B5557C /* WiiRemote.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		194855F9134B18D200B5557C /* WiiBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiiBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,14 +53,42 @@
 		19485600134B18D200B5557C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		19485601134B18D200B5557C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		19485602134B18D200B5557C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		19485605134B18D200B5557C /* WiiBoard-Info.plist */ = {isa = PBXFileReference; path = "WiiBoard-Info.plist"; sourceTree = "<group>"; };
+		19485605134B18D200B5557C /* WiiBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WiiBoard-Info.plist"; sourceTree = "<group>"; };
 		19485607134B18D200B5557C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		19485609134B18D200B5557C /* WiiBoard-Prefix.pch */ = {isa = PBXFileReference; path = "WiiBoard-Prefix.pch"; sourceTree = "<group>"; };
+		19485609134B18D200B5557C /* WiiBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiiBoard-Prefix.pch"; sourceTree = "<group>"; };
 		1948560A134B18D200B5557C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1948560D134B18D200B5557C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		1948560F134B18D200B5557C /* WiiBoardAppDelegate.h */ = {isa = PBXFileReference; path = WiiBoardAppDelegate.h; sourceTree = "<group>"; };
-		19485610134B18D200B5557C /* WiiBoardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiiBoardAppDelegate.m; sourceTree = "<group>"; };
-		19485613134B18D200B5557C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1948561A134B18FF00B5557C /* WiiRemote.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WiiRemote.framework; sourceTree = "<group>"; };
+		1948561C134B194D00B5557C /* WiiBoardAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiBoardAppDelegate.h; sourceTree = "<group>"; };
+		1948561D134B194D00B5557C /* WiiBoardAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiiBoardAppDelegate.m; sourceTree = "<group>"; };
+		1948561E134B194D00B5557C /* irTocke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irTocke.h; sourceTree = "<group>"; };
+		1948561F134B194D00B5557C /* irTocke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = irTocke.m; sourceTree = "<group>"; };
+		19485620134B194D00B5557C /* irTockeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irTockeView.h; sourceTree = "<group>"; };
+		19485621134B194D00B5557C /* irTockeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = irTockeView.m; sourceTree = "<group>"; };
+		19485622134B194D00B5557C /* CalibrateWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateWindow.h; sourceTree = "<group>"; };
+		19485623134B194D00B5557C /* CalibrateWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateWindow.m; sourceTree = "<group>"; };
+		19485624134B194D00B5557C /* CalibrateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateView.h; sourceTree = "<group>"; };
+		19485625134B194D00B5557C /* CalibrateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateView.m; sourceTree = "<group>"; };
+		19485626134B194D00B5557C /* CalibrationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationView.h; sourceTree = "<group>"; };
+		19485627134B194D00B5557C /* CalibrationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrationView.m; sourceTree = "<group>"; };
+		19485628134B194D00B5557C /* Warper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warper.h; sourceTree = "<group>"; };
+		19485629134B194D00B5557C /* Warper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warper.m; sourceTree = "<group>"; };
+		1948562A134B194D00B5557C /* SmoothingAverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothingAverage.h; sourceTree = "<group>"; };
+		1948562B134B194D00B5557C /* SmoothingAverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothingAverage.m; sourceTree = "<group>"; };
+		1948562C134B194D00B5557C /* SmoothingAdaptive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothingAdaptive.h; sourceTree = "<group>"; };
+		1948562D134B194D00B5557C /* SmoothingAdaptive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothingAdaptive.m; sourceTree = "<group>"; };
+		1948562E134B194D00B5557C /* JSPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPoint.h; sourceTree = "<group>"; };
+		1948562F134B194D00B5557C /* JSPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPoint.m; sourceTree = "<group>"; };
+		19485630134B194D00B5557C /* MultitouchSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultitouchSupport.h; sourceTree = "<group>"; };
+		19485631134B194D00B5557C /* MultitouchSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultitouchSupport.m; sourceTree = "<group>"; };
+		1948563D134B198A00B5557C /* ledred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ledred.png; sourceTree = "<group>"; };
+		1948563E134B198A00B5557C /* ledorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ledorange.png; sourceTree = "<group>"; };
+		1948563F134B198A00B5557C /* ledgreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ledgreen.png; sourceTree = "<group>"; };
+		19485640134B198A00B5557C /* ledlightblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ledlightblue.png; sourceTree = "<group>"; };
+		19485641134B198A00B5557C /* green.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = green.tiff; sourceTree = "<group>"; };
+		19485642134B198A00B5557C /* red.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = red.tiff; sourceTree = "<group>"; };
+		1948564A134B19A500B5557C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		1948564B134B19A500B5557C /* irTocke.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = irTocke.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				194855FE134B18D200B5557C /* Cocoa.framework in Frameworks */,
+				1948561B134B18FF00B5557C /* WiiRemote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +124,7 @@
 		194855FC134B18D200B5557C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1948561A134B18FF00B5557C /* WiiRemote.framework */,
 				194855FD134B18D200B5557C /* Cocoa.framework */,
 				194855FF134B18D200B5557C /* Other Frameworks */,
 			);
@@ -82,9 +144,29 @@
 		19485603134B18D200B5557C /* WiiBoard */ = {
 			isa = PBXGroup;
 			children = (
-				1948560F134B18D200B5557C /* WiiBoardAppDelegate.h */,
-				19485610134B18D200B5557C /* WiiBoardAppDelegate.m */,
-				19485612134B18D200B5557C /* MainMenu.xib */,
+				1948564E134B19A700B5557C /* Interface */,
+				1948561C134B194D00B5557C /* WiiBoardAppDelegate.h */,
+				1948561D134B194D00B5557C /* WiiBoardAppDelegate.m */,
+				1948561E134B194D00B5557C /* irTocke.h */,
+				1948561F134B194D00B5557C /* irTocke.m */,
+				19485620134B194D00B5557C /* irTockeView.h */,
+				19485621134B194D00B5557C /* irTockeView.m */,
+				19485622134B194D00B5557C /* CalibrateWindow.h */,
+				19485623134B194D00B5557C /* CalibrateWindow.m */,
+				19485624134B194D00B5557C /* CalibrateView.h */,
+				19485625134B194D00B5557C /* CalibrateView.m */,
+				19485626134B194D00B5557C /* CalibrationView.h */,
+				19485627134B194D00B5557C /* CalibrationView.m */,
+				19485628134B194D00B5557C /* Warper.h */,
+				19485629134B194D00B5557C /* Warper.m */,
+				1948562A134B194D00B5557C /* SmoothingAverage.h */,
+				1948562B134B194D00B5557C /* SmoothingAverage.m */,
+				1948562C134B194D00B5557C /* SmoothingAdaptive.h */,
+				1948562D134B194D00B5557C /* SmoothingAdaptive.m */,
+				1948562E134B194D00B5557C /* JSPoint.h */,
+				1948562F134B194D00B5557C /* JSPoint.m */,
+				19485630134B194D00B5557C /* MultitouchSupport.h */,
+				19485631134B194D00B5557C /* MultitouchSupport.m */,
 				19485604134B18D200B5557C /* Supporting Files */,
 			);
 			path = WiiBoard;
@@ -93,6 +175,7 @@
 		19485604134B18D200B5557C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				19485649134B198E00B5557C /* Icons */,
 				19485605134B18D200B5557C /* WiiBoard-Info.plist */,
 				19485606134B18D200B5557C /* InfoPlist.strings */,
 				19485609134B18D200B5557C /* WiiBoard-Prefix.pch */,
@@ -100,6 +183,28 @@
 				1948560C134B18D200B5557C /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19485649134B198E00B5557C /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1948563D134B198A00B5557C /* ledred.png */,
+				1948563E134B198A00B5557C /* ledorange.png */,
+				1948563F134B198A00B5557C /* ledgreen.png */,
+				19485640134B198A00B5557C /* ledlightblue.png */,
+				19485641134B198A00B5557C /* green.tiff */,
+				19485642134B198A00B5557C /* red.tiff */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		1948564E134B19A700B5557C /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1948564A134B19A500B5557C /* MainMenu.xib */,
+				1948564B134B19A500B5557C /* irTocke.xib */,
+			);
+			name = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +217,7 @@
 				194855F5134B18D200B5557C /* Sources */,
 				194855F6134B18D200B5557C /* Frameworks */,
 				194855F7134B18D200B5557C /* Resources */,
+				1948564F134B1ACE00B5557C /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -151,7 +257,14 @@
 			files = (
 				19485608134B18D200B5557C /* InfoPlist.strings in Resources */,
 				1948560E134B18D200B5557C /* Credits.rtf in Resources */,
-				19485614134B18D200B5557C /* MainMenu.xib in Resources */,
+				19485643134B198A00B5557C /* ledred.png in Resources */,
+				19485644134B198A00B5557C /* ledorange.png in Resources */,
+				19485645134B198A00B5557C /* ledgreen.png in Resources */,
+				19485646134B198A00B5557C /* ledlightblue.png in Resources */,
+				19485647134B198A00B5557C /* green.tiff in Resources */,
+				19485648134B198A00B5557C /* red.tiff in Resources */,
+				1948564C134B19A500B5557C /* MainMenu.xib in Resources */,
+				1948564D134B19A500B5557C /* irTocke.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +276,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1948560B134B18D200B5557C /* main.m in Sources */,
-				19485611134B18D200B5557C /* WiiBoardAppDelegate.m in Sources */,
+				19485632134B194D00B5557C /* WiiBoardAppDelegate.m in Sources */,
+				19485633134B194D00B5557C /* irTocke.m in Sources */,
+				19485634134B194D00B5557C /* irTockeView.m in Sources */,
+				19485635134B194D00B5557C /* CalibrateWindow.m in Sources */,
+				19485636134B194D00B5557C /* CalibrateView.m in Sources */,
+				19485637134B194D00B5557C /* CalibrationView.m in Sources */,
+				19485638134B194D00B5557C /* Warper.m in Sources */,
+				19485639134B194D00B5557C /* SmoothingAverage.m in Sources */,
+				1948563A134B194D00B5557C /* SmoothingAdaptive.m in Sources */,
+				1948563B134B194D00B5557C /* JSPoint.m in Sources */,
+				1948563C134B194D00B5557C /* MultitouchSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,14 +307,6 @@
 				1948560D134B18D200B5557C /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		19485612134B18D200B5557C /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19485613134B18D200B5557C /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -234,6 +349,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -250,6 +369,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WiiBoard/WiiBoard-Prefix.pch";
